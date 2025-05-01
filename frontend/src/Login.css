@@ -1,0 +1,48 @@
+.auth-image {
+    width: 100%;
+    border-radius: 8px;
+  
+  }
+  
+  .form-container1 {
+    width: 1250px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(180deg, #d0c4fa 100%, #988ad7 100%);
+  } 
+ 
+  /* Pour assurer que les deux colonnes ont un espace équilibré */
+  .form-container .ant-flex {
+    gap: 30px;
+  
+  }
+  
+  /* Styles spécifiques pour l'image */
+  .form-container .ant-flex > .ant-flex:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+    
+  }
+  .btn.full-width{
+    background-color: #6f60b4;
+   }
+  /* Styles pour le formulaire */
+  .form-container .ant-flex > .ant-flex:last-child {
+    padding: 10px;
+   
+  }
+ 
+  /* Styles pour les écrans de taille moyenne ou petite */
+  @media (max-width: 768px) {
+    .form-container .ant-flex {
+      flex-direction: column;
+    }
+    
+    .auth-image {
+      margin-bottom: 20px;
+      max-height: 200px;
+    }
+  }

@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "id": "451",
+      "login": "kmathlouthi07@gmail.com",
+      "password": "kh5544",
+      "role": "Responsable"
+    },
+    {
+      "id": "5555",
+      "login": "kmathlouthi07@gmail.com",
+      "password": "ffghj",
+      "role": "Utilisateur"
+    },
+    {
+      "id": "2c93",
+      "login": "nour@gmail.com",
+      "password": "258",
+      "role": "Responsable"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipant": "1",
+      "nomParticipant": "Ben Ali",
+      "prenomParticipant": "Sana",
+      "emailParticipant": "sana.benali@example.com",
+      "telParticipant": "0612345678",
+      "idStructure": 1,
+      "idProfil": 2,
+      "id": "8736"
+    },
+    {
+      "idParticipant": "2",
+      "nomParticipant": "Khaldi",
+      "prenomParticipant": "Omar",
+      "emailParticipant": "omar.khaldi@example.com",
+      "telParticipant": "0678543210",
+      "idStructure": 2,
+      "idProfil": 1,
+      "id": "f015"
+    },
+    {
+      "idParticipant": "910",
+      "nomParticipant": "test",
+      "prenomParticipant": "Khouloud",
+      "emailParticipant": "kmathlouthi07@gmail.com",
+      "telParticipant": "94837367",
+      "idStructure": 2,
+      "idProfil": 2,
+      "id": "daf8"
+    },
+    {
+      "idParticipant": "9dcc",
+      "nomParticipant": "test2",
+      "prenomParticipant": "Khouloud",
+      "emailParticipant": "kmathlouthi07@gmail.com",
+      "telParticipant": "94837367",
+      "idStructure": 1,
+      "idProfil": 2,
+      "id": "e5f9"
+    }
+  ],
+  "structures": [
+    {
+      "idStructure": 1,
+      "libelleStructure": "Université de Tunis",
+      "id": "f716"
+    },
+    {
+      "idStructure": 2,
+      "libelleStructure": "École Polytechnique",
+      "id": "f59d"
+    }
+  ],
+  "profils": [
+    {
+      "idProfil": 1,
+      "libelleProfil": "Étudiant",
+      "id": "c584"
+    },
+    {
+      "idProfil": 2,
+      "libelleProfil": "Doctorant",
+      "id": "ddaf"
+    }
+  ],
+  "domaines": [
+    {
+      "id": "d001",
+      "libelle": "Informatique"
+    },
+    {
+      "id": "d002",
+      "libelle": "Management"
+    },
+    {
+      "id": "d003",
+      "libelle": "Langues"
+    },
+    {
+      "id": "d004",
+      "libelle": "Sciences"
+    }
+  ],
+  "formateurs": [
+    {
+      "id": "f002",
+      "nom": "Meddeb",
+      "prenom": "Karim",
+      "email": "karim.meddeb@example.com",
+      "tel": "99876543",
+      "type": "externe",
+      "idEmployeur": "0f37"
+    },
+    {
+      "id": "f003",
+      "nom": "Ben Salah",
+      "prenom": "Nadia",
+      "email": "nadia.bensalah@example.com",
+      "tel": "28765432",
+      "type": "interne",
+      "idEmployeur": "e003"
+    },
+    {
+      "id": "078e",
+      "nom": "Mathlouthi",
+      "prenom": "Khouloud",
+      "email": "kmathlouthi07@gmail.com",
+      "tel": "94837367",
+      "type": "interne",
+      "idEmployeur": "e001"
+    }
+  ],
+  "employeurs": [
+    {
+      "idEmployeur": "e001",
+      "nomemployeur": "Tech Solutions SA",
+      "id": "1c1d"
+    },
+    {
+      "idEmployeur": "e002",
+      "nomemployeur": "Centre de Formation Professionnel",
+      "id": "0f37"
+    },
+    {
+      "idEmployeur": "e003",
+      "nomemployeur": "Institut Supérieur d'Informatique",
+      "id": "0e7a"
+    }
+  ],
+  "formations": [
+    {
+      "id": "fr001",
+      "titre": "Développement Web Avancé",
+      "annee": 2025,
+      "duree": 5,
+      "idDomaine": "d001",
+      "budget": 1500,
+      "idFormateur": "f001"
+    },
+    {
+      "id": "fr002",
+      "titre": "Leadership et Communication",
+      "annee": 2025,
+      "duree": 3,
+      "idDomaine": "d002",
+      "budget": 1200,
+      "idFormateur": "f002"
+    },
+    {
+      "id": "fr003",
+      "titre": "Intelligence Artificielle - Introduction",
+      "annee": 2025,
+      "duree": 7,
+      "idDomaine": "d001",
+      "budget": 2500,
+      "idFormateur": "f003"
+    },
+    {
+      "id": "fr004",
+      "titre": "Anglais Technique",
+      "annee": 2025,
+      "duree": 10,
+      "idDomaine": "d003",
+      "budget": 18000,
+      "idFormateur": "f002"
+    },
+    {
+      "titre": "k",
+      "annee": 2025,
+      "duree": 1,
+      "idDomaine": "d003",
+      "budget": 50,
+      "idFormateur": "078e",
+      "id": "21af"
+    },
+    {
+      "id": "a59d",
+      "titre": "Anglais Technique",
+      "annee": 2025,
+      "duree": 1,
+      "idDomaine": "d003",
+      "budget": 100,
+      "idFormateur": "f003"
+    },
+    {
+      "id": "6234",
+      "titre": "k",
+      "annee": 2026,
+      "duree": 8,
+      "idDomaine": "d002",
+      "budget": 5000,
+      "idFormateur": "f003"
+    }
+  ]
+}
